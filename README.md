@@ -1,6 +1,8 @@
 # FastAPI framework
 ## Boilerplate code
 
+[![Build Status](https://travis-ci.com/bharath-krishna/fastapi_framework.svg?branch=master)](https://travis-ci.com/github/bharath-krishna/fastapi_framework)
+
 This is a [FastAPI](https://fastapi.tiangolo.com/) project.
 
 ## Getting Started
