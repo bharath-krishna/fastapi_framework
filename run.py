@@ -14,4 +14,5 @@ if __name__ == "__main__":
                 workers=config.workers,
                 access_log=config.access_log,
                 log_config=log_config,
-                debug=config.debug)
+                # debug=config.debug
+                )
