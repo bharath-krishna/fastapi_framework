@@ -8,7 +8,7 @@ class Application(FastAPI):
         config.logger.info("Application starting")
         super().__init__(**kwargs)
 
-app = Application(docs_url='/apidocs',
+app = Application(docs_url='/docs',
                   swagger_ui_oauth2_redirect_url='/callback',
                   title=config.title,
                   description="Code for logging, authentication with JWT token, e2e tests are added",

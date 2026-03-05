@@ -2,7 +2,7 @@ import logging.config
 from functools import lru_cache
 from os import environ
 
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
 class BaseLoggingConfig():
